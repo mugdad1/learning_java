@@ -15,6 +15,8 @@ public class JavaApplication4 {
      */
     public static void main(String[] args) {
         System.out.println("heaven from netbeans");
+        System.out.println("heaven from netbeans");
+
 
     }
     
