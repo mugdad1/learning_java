@@ -1,3 +1,6 @@
+//psvm for     public static void main(String[] args) {
+//alt shift f for orgnize
+//f6 for run
 package javaapplication4;
 
 import java.util.Scanner;
