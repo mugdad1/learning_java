@@ -1,7 +1,7 @@
 //psvm for     public static void main(String[] args) {
 //alt shift f for orgnize
 //f6 for run
-package javaapplication4;
+package Bro_code;
 
 import java.util.Scanner;
 public class Input {
