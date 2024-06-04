@@ -1,5 +1,7 @@
+package javaapplication4;
+
 import java.util.Scanner;
-public class Main {
+public class Input {
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
 
