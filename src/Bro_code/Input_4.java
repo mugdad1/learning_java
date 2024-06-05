@@ -4,7 +4,7 @@
 package Bro_code;
 
 import java.util.Scanner;
-public class Input {
+public class Input_4 {
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
 

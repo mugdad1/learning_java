@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
  *
  * @author mugdad
  */
-public class GUI {
+public class GUI_6 {
     public static void main(String[] args) {
         String name = JOptionPane.showInputDialog("enter your name");
         JOptionPane.showMessageDialog(null,"hello"+ name);

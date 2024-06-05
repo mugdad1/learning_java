@@ -7,7 +7,7 @@ package Bro_code;
  *
  * @author mugdad
  */
-public class Swap2Vars {
+public class Swap2Vars_3 {
 
     public static void main(String[] args) {
         String x = "water ";

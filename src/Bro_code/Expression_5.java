@@ -7,7 +7,7 @@ package Bro_code;
  *
  * @author mugdad
  */
-public class Expression {
+public class Expression_5 {
 
     public static void main(String[] args) {
         int friends = 10;

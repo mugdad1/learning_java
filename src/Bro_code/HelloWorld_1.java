@@ -8,7 +8,7 @@ package Bro_code;
  *
  * @author mugdad
  */
-public class HelloWorld {
+public class HelloWorld_1 {
 
     /**
      * @param args the command line arguments
