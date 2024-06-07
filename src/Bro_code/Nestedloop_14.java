@@ -11,29 +11,26 @@ import java.util.Scanner;
  * @author mugdad
  */
 public class Nestedloop_14 {
+
     public static void main(String[] args) {
-        Scanner scanner =new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int rows;
         int cols;
-        String symbol= "";
+        String symbol = "";
         System.out.println("enter the number of rows");
-        rows= scanner.nextInt();
+        rows = scanner.nextInt();
         System.out.println("enter the number of cols");
         cols = scanner.nextInt();
         System.out.println("enter the symbol");
-        symbol =scanner.next();
-        for (int i = 1 ; i<=rows;i++){
+        symbol = scanner.next();
+        for (int i = 1; i <= rows; i++) {
             System.out.println();
-            for(int j = 1;j<=cols;j++){
+            for (int j = 1; j <= cols; j++) {
                 System.out.print(symbol);
-                
+
             }
         }
         System.out.println("");
-            }
-    
-        }
-        
-    
-    
+    }
 
+}
