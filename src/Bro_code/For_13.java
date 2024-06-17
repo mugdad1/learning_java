@@ -10,6 +10,7 @@ import java.util.Scanner;
  *
  * @author mugdad
  */
+
 public class For_13 {
 
     public static void main(String[] args) {
