@@ -23,7 +23,7 @@ public class ForLoop_21 {
          
             
         }
-        for(String l: producelist){
+        for(String l: producelist){//for array list printing
             System.out.println(l);
         }
     }
