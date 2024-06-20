@@ -11,14 +11,14 @@ import javax.swing.JOptionPane;
  */
 public class GUI_6 {
     public static void main(String[] args) {
-        String name = JOptionPane.showInputDialog("enter your name");
-        JOptionPane.showMessageDialog(null,"hello"+ name);
+        String name = JOptionPane.showInputDialog("enter your name ");
+        JOptionPane.showMessageDialog(null,"hello "+ name);
         
         int age = Integer.parseInt(JOptionPane.showInputDialog("enter your age"));
-        JOptionPane.showMessageDialog(null,"your are"+age+"years old");
+        JOptionPane.showMessageDialog(null,"your are "+age+" years old");
         
         
-        double hight = Double.parseDouble(JOptionPane.showInputDialog("enter your hight"));
+        double hight = Double.parseDouble(JOptionPane.showInputDialog("enter your hight in cm"));
         JOptionPane.showMessageDialog(null,"your are"+hight+" cm long");
         
         
