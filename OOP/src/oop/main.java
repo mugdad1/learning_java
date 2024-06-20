@@ -12,6 +12,8 @@ public class main {
 
     public static void main(String[] args) {
         cars MyCar = new cars();
+        cars MyCar2 = new cars();
+        
         System.out.println(MyCar.color);
         System.out.println(MyCar.make);
         System.out.println(MyCar.model);
