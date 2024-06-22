@@ -1,7 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+//psvm forpublic static void main(String[] args) {
+//alt shift f for orgnize
+//f6 for run
+//sout for print
 package constructors;
 
 /**
@@ -18,9 +18,11 @@ public class Main {
         Human human2 = new Human("morty", 65, 70);
 
         System.out.println(human2.name+"name +age:"+human2.age);//change name to age or weight
+        human2.drink();
+        human.drink();
+        human.pickle();
         human2.eat();
         human.drink();
-        
-    }
+     }
 
 }

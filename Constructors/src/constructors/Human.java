@@ -25,6 +25,10 @@ public class Human {
     }
     void    drink(){
         System.out.println(this.name+"is drinking *burp* ");
+        
+    }
+    void pickle(){
+        System.out.println("i'm pickle rickkkk morty ");
     }
 
 }
