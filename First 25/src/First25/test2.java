@@ -11,38 +11,32 @@ import java.util.Scanner;
  * @author mugdad
  *
  */
-import java.util.Scanner;
 
+/*import java.util.Scanner;
+*/
 public class test2 {
 
     public static void main(String[] args) {
-        char grade ;
-        Scanner scanner = new Scanner(System.in);
-        int mark = scanner.nextInt();
-        switch (mark / 10) {
-            case 10:
-            case 9:
-                grade = 'A';
-                break;
-            case 8:
-                grade = 'b';
-                break;
-            case 7 :
-                grade = 'c';
-                break;
-            case 6 :
-                grade = 'd';
-                break;
-            default:
-                grade = 'f';
-                break;
+         int data[] = {3, 12, 4, 78, 4, 56, 8, 92, 5, 45, 6, 32, 0, 15, 7, 100, 0, 56, 2, 48, 0, 51, 0, 0, 25, 1, 86, 30, -1};
+        int ctr = 0, even = 0, odd = 0, zero = 0;
+        while(data[ctr] != -1){
+            if(data[ctr]==0){
+                zero++;
+            }else if (data[ctr]%2 == 0){
+                even++;
+            }else{
+                odd++;
+            }
+            ctr++;
         }
-        System.out.println("the grade for mark "+ mark + "is "+ grade);
+        System.out.println(even);
+        System.out.println(odd);
+        System.out.println(zero);
+        System.out.println("all the numbers are "+ctr);
+        
     }
-
+ 
 }
-
-
 /*
    
          float bmi, kilo , meters;
@@ -80,23 +74,5 @@ public static  float getbmi(float kl , float met){
         
         
  */
- /*
-  int data[] = {3, 12, 4, 78, 4, 56, 8, 92, 5, 45, 6, 32, 0, 15, 7, 100, 0, 56, 2, 48, 0, 51, 0, 0, 25, 1, 86, 30, -1};
-        int ctr = 0, even = 0, odd = 0, zero = 0;
-        while(data[ctr] != -1){
-            if(data[ctr]==0){
-                zero++;
-            }else if (data[ctr]%2 == 0){
-                even++;
-            }else{
-                odd++;
-            }
-            ctr++;
-        }
-        System.out.println(even);
-        System.out.println(odd);
-        System.out.println(zero);
-        System.out.println("all the numbers are "+ctr);
-        
-    }
- */
+ 
+ 

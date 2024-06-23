@@ -10,7 +10,23 @@ import java.util.Scanner;
  *
  * @author mugdad
  * //Source Code
-
+*/
+ public class Main {
+    public static void main(String[] args) {
+        int[] numbers = {10, 20, 5, 30, 15};
+        
+        int max = numbers[0];
+        
+        for (int i = 1; i < numbers.length; i++) {
+            if (numbers[i] > max) {
+                max = numbers[i];
+            }
+        }
+        
+        System.out.println("The largest number in the array is: " + max);
+    }
+}
+/*
 #include <iostream>
 using namespace std;
 
@@ -36,7 +52,8 @@ return 0;
 
 
 
- */
+
+
 public class test {
     public static void main(String[] args) {
         int i,c,a=1;
@@ -60,4 +77,4 @@ public class test {
     }
     
 }
-//
+*/
