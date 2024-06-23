@@ -23,6 +23,7 @@ public class For_13 {
             if (counter % 2 == 0) {
                 System.out.print(counter + " ");
                 sum = sum + counter;
+                
 
             }
 
