@@ -1,13 +1,30 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+//psvm forpublic static void main(String[] args) {
+//alt shift f for orgnize
+//f6 for run
+//sout for print
 package variablescoope;
+
+import static java.lang.Math.random;
+import java.util.Random;
 
 /**
  *
  * @author mugdad
  */
 public class DiceRoller {
-    
+    Random random;
+    int number = 0;
+    DiceRoller() {
+        
+         random = new Random();
+        roll();
+
+    }
+
+    void roll() {
+        number = random.nextInt(6) + 1;
+        System.out.println(number);
+
+    }
+
 }
