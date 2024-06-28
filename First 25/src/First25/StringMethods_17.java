@@ -11,9 +11,12 @@ package First25;
 public class StringMethods_17 {
 
     public static void main(String[] args) {
-        String name = "codewars";
-        
-            name.replaceAll("[aeiou]", "");       
+        String name = "mkm";
+        String lol = "0";
+            name.replaceAll("[aeiou]", "");
+            
+            System.out.println(name.charAt(0));//finds the char at index
+            System.out.println(name.contains("m"));
     }
 
 }
