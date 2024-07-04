@@ -9,7 +9,7 @@ import java.util.Random;
 
 /**
  *
- * @author mugdad
+ * @author mugdado
  */
 public class DiceRoller {
     Random random;
