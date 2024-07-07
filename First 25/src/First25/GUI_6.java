@@ -4,6 +4,7 @@ package First25;
 //alt shift f for orgnize
 //f6 for run
 import javax.swing.JOptionPane;
+import java.util.Date;
 
 /**
  *
@@ -20,8 +21,8 @@ public class GUI_6 {
         
         double hight = Double.parseDouble(JOptionPane.showInputDialog("enter your hight in cm"));
         JOptionPane.showMessageDialog(null,"your are"+hight+" cm long");
-        
-        
+        java.util.Date date=new java.util.Date();  
+        System.out.println(date);          
         
         
     }
