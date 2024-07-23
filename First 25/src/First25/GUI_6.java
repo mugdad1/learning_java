@@ -4,7 +4,6 @@ package First25;
 //alt shift f for orgnize
 //f6 for run
 import javax.swing.JOptionPane;
-import java.util.Date;
 
 /**
  *

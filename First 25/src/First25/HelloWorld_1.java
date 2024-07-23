@@ -1,7 +1,7 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+*
+*
+*/
 package First25;
 
 /**
@@ -32,7 +32,5 @@ public class HelloWorld_1 {
 
 //println for new line
 /*
-\n for newline 
-\t tab
-\\ 
+m
 */

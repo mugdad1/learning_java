@@ -13,6 +13,19 @@ import java.util.Scanner;
 public class While_12 {
 
     public static void main(String[] args) {
+        int num ;
+        Scanner scanner = new Scanner(System.in);
+        num = scanner.nextInt();
+        while (num != 1 ){
+            System.out.println("num doesn't equal 1 ");
+            
+        
+        
+        }
+    }
+
+}
+/*
         Scanner scanner = new Scanner(System.in);
         String name = "";
         while (name.isBlank()) {
@@ -22,6 +35,4 @@ public class While_12 {
         }
         System.out.println("Hello:" + name);
 
-    }
-
-}
+*/
