@@ -18,9 +18,9 @@ public class ArrayList_19 {
         names.add("David");
         names.add("tarry");//adds without index
         names.add("Mugdad");
-        names.add(0, "nigg");//adds with index
-        names.remove(2);
-        names.set(0, "bb");//sets in a index even if it was occupied
+        names.add( "nigg");//adds with index
+        //names.remove(2);
+        names.add("bb");//sets in a index even if it was occupied
         //names.clear();//rm -rf /
 
         for (int i = 0; i < names.size(); ++i) {
