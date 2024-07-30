@@ -19,12 +19,7 @@ public class Methods_22 {
         System.out.println(z); 
 
         hello(name);
-      
-        
-   
-        
-         
-        
+ 
         
     }
     static int add(int x , int y){//type and bring the variables from

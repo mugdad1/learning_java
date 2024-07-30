@@ -29,6 +29,6 @@ public class For_13 {
 
         }
         System.out.println("\nsum of all even num " + sum);
-
+        scanner.close();
     }
 }

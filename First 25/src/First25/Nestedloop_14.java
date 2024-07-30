@@ -31,6 +31,7 @@ public class Nestedloop_14 {
             }
         }
         System.out.println("");
+        scanner.close();
     }
 
 }

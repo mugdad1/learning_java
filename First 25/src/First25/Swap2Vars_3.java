@@ -10,13 +10,14 @@ package First25;
 public class Swap2Vars_3 {
 
     public static void main(String[] args) {
-        String x = "water ";
-        String y = "kool kid";
+        String x = " water ";
+        String y = " kool kid ";
         String z;
-        //z = x + y;
+        z = x + y;
         z=x;//x is 
         x=y;
         y=z;
+        
         
 
         System.out.println(x + y);
