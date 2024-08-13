@@ -18,7 +18,8 @@ public class While_12 {
         num = scanner.nextInt();
         while (num != 1 ){
             System.out.println("num doesn't equal 1 ");
-            
+            //num = num * num;
+        
         
         
         }
