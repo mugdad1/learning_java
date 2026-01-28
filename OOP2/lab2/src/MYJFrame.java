@@ -4,9 +4,9 @@ import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import java.awt.FlowLayout;
 
-public class MyJFrame extends JFrame {
+public class MYJFrame extends JFrame {
 
-    public MyJFrame() {
+    public MYJFrame() {
         super("My Favorite Animal"); // Title of the JFrame
 
         // Setting the layout
@@ -29,6 +29,6 @@ public class MyJFrame extends JFrame {
 
     public static void main(String[] args) {
         // Create the JFrame instance
-        new MyJFrame();
+        new MYJFrame();
     }
 }
