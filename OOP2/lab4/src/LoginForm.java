@@ -35,7 +35,7 @@ public class LoginForm extends JFrame {
         String username = usernameField.getText();
         String password = new String(passwordField.getPassword());
         if ("malhajri".equals(username) && "1111".equals(password)) {
-            JOptionPane.showMessageDialog(this, "Welcome malhajri",
+            JOptionPane.showMessageDialog(this, "Welcome mUGDAD",
                     "Login Successful", JOptionPane.INFORMATION_MESSAGE);
         } else {
             JOptionPane.showMessageDialog(this, "Username or Password is not correct!",
